@@ -17,7 +17,7 @@
         print_r($_POST);
         echo "</pre>";
         $weight = $_POST["weight"];
-        $height = (int) $_POST["height"];
+        $height = $_POST["height"];
         $bmi = $weight/($height * $height);
         echo "Chỉ số BMI là: " . $bmi;
 
