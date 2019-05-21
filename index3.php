@@ -11,6 +11,7 @@
 
 <?php
 
+
     $weight = $height = 0;
     if(isset($_GET["height"]) && isset($_GET["weight"])){
         echo "<pre>";
