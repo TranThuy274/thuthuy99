@@ -20,7 +20,7 @@
         $height = $_POST["height"];
         $bmi = $weight/($height * $height);
         echo "Chỉ số BMI là: " . $bmi;
-
+        echo "<br>";
         if($bmi < 18.5){
             echo "Thiếu cân";
         } elseif ($bmi >=18.5 && $bmi <= 22.99){
